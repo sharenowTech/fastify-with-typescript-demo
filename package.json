@@ -11,9 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/mongodb": "^3.1.19",
+    "@types/mongoose": "^5.3.8",
     "fastify": "^1.13.4",
     "fastify-blipp": "^1.2.1",
     "fastify-plugin": "^1.4.0",
+    "mongoose": "^5.4.4",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.4"
   }
