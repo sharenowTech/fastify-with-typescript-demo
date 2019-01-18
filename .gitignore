@@ -158,3 +158,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# do not commit built version of the app
+dist
