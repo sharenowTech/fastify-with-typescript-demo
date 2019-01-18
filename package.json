@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test npx jest --verbose --runInBand",
+    "build": "rm -rf dist && tsc --sourceMap -p ./",
     "dev": "ts-node --files ./src/index.ts"
   },
   "keywords": [],
