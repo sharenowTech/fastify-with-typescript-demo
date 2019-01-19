@@ -22,6 +22,7 @@
     "fastify-plugin": "^1.4.0",
     "jest": "^23.6.0",
     "mongoose": "^5.4.4",
+    "source-map-support": "^0.5.10",
     "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.4"
