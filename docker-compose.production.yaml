@@ -1,0 +1,21 @@
+version: '3'
+services:
+  my-project-ts:
+    build: .
+    depends_on:
+      - mongodb
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+  mongodb:
+    image: mongo:3.6.0
+    ports:
+    - "27017:27017"
+    volumes:
+    - dbvolume:/data
+    environment: {
+      AUTH: "no"
+    }
+volumes:
+  dbvolume: {}
